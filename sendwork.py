@@ -99,10 +99,10 @@ def _format_addr(s):
         Header(name, 'utf-8').encode(), \
         addr.encode('utf-8') if isinstance(addr, unicode) else addr))
 
-from_addr="xuyuanfang@vip.qq.com"
-password="sim/+*-200818534"
+from_addr="123456@vip.qq.com"
+password="123456"
 smtp_server="smtp.qq.com"
-to_addr="691066230@qq.com"
+to_addr="123456@qq.com"
 server = smtplib.SMTP(smtp_server, 25)
 
 #message
